@@ -23,20 +23,23 @@ After 13 rounds, the game is over, and the player’s score is the total of each
 ```python
 **Scoring Categories:**
 
-**Category**        	**Description**                **Example Score**
-Ones	            Score 1 for every 1                `1 1 2 3 4` = 2
-Twos	            Score 2 for every 2	               `1 2 2 3 4` = 4
-Threes	          Score 3 for every 3	               `1 2 3 3 3` = 9
-Fours	            Score 4 for every 4	               `1 2 4 4 5` = 8
-Fives	            Score 5 for every 5	               `1 2 5 5 5` = 15
-Sixes	            Score 6 for every 6	               `1 2 3 6 6` = 12
-3 of Kind	        If 3+ of one value,  score sum of all dice  (otherwise, score 0)	`1 2 3 3 3` = 12
-4 of Kind	        If 4+ of one value, score sum of all dice (else 0)	1 2 2 2 2 = 8
-Full House	      If 3 of one value and 2 of another, score 25 (else 0)	2 2 3 3 3 = 25
-Small Straight	  If 4+ values in a row, score 30 (else 0)	1 2 3 4 6 = 30
-Large Straight	  If 5 values in a row, score 40 (else 0)	1 2 3 4 5 = 40
-Yahtzee	          If all values match, score 50 (else 0)	2 2 2 2 2 = 50
-Chance	          Score sum of all dice	      1 2 3 4 6 = 16
+**Category**       **Description**                            **Example Score**
+Ones              Score 1 for every 1                           `1 1 2 3 4` = 2
+Twos              Score 2 for every 2                           `1 2 2 3 4` = 4
+Threes            Score 3 for every 3                           `1 2 3 3 3` = 9
+Fours             Score 4 for every 4                           `1 2 4 4 5` = 8
+Fives             Score 5 for every 5                           `1 2 5 5 5` = 15
+Sixes             Score 6 for every 6                           `1 2 3 6 6` = 12
+3 of Kind         If 3+ of one value,  score sum of all dice    `1 2 3 3 3` = 12
+                  (otherwise, score 0)
+4 of Kind         If 4+ of one value, score sum of all dice      1 2 2 2 2 = 8
+                  (else 0)
+Full House        If 3 of one value and 2 of another, score 25   2 2 3 3 3 = 25
+                  (else 0)	
+Small Straight    If 4+ values in a row, score 30 (else 0)       1 2 3 4 6 = 30
+Large Straight    If 5 values in a row, score 40 (else 0)        1 2 3 4 5 = 40
+Yahtzee           If all values match, score 50 (else 0)         2 2 2 2 2 = 50
+Chance            Score sum of all dice                          1 2 3 4 6 = 16
 ```
 
 Example Round:
@@ -60,7 +63,7 @@ Any other category they claimed on this round would score 0.
 You need to have access to the Internet and a browser installed (preferably Google Chrome) to run this app.
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-To open the application: 
+To open the application:
 
 * in a terminal, "cd" to the folder of the app,
 * install all project dependencies with `npm install`

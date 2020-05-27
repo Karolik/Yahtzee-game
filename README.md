@@ -33,14 +33,14 @@ Fives             Score 5 for every 5                           `1 2 5 5 5` = 15
 Sixes             Score 6 for every 6                           `1 2 3 6 6` = 12
 3 of Kind         If 3+ of one value,  score sum of all dice    `1 2 3 3 3` = 12
                   (otherwise, score 0)
-4 of Kind         If 4+ of one value, score sum of all dice      1 2 2 2 2 = 8
+4 of Kind         If 4+ of one value, score sum of all dice     `1 2 2 2 2` = 8
                   (else 0)
-Full House        If 3 of one value and 2 of another, score 25   2 2 3 3 3 = 25
-                  (else 0)	
-Small Straight    If 4+ values in a row, score 30 (else 0)       1 2 3 4 6 = 30
-Large Straight    If 5 values in a row, score 40 (else 0)        1 2 3 4 5 = 40
-Yahtzee           If all values match, score 50 (else 0)         2 2 2 2 2 = 50
-Chance            Score sum of all dice                          1 2 3 4 6 = 16
+Full House        If 3 of one value and 2 of another, score 25  `2 2 3 3 3` = 25
+                  (else 0)
+Small Straight    If 4+ values in a row, score 30 (else 0)      `1 2 3 4 6` = 30
+Large Straight    If 5 values in a row, score 40 (else 0)       `1 2 3 4 5` = 40
+Yahtzee           If all values match, score 50 (else 0)        `2 2 2 2 2` = 50
+Chance            Score sum of all dice                         `1 2 3 4 6` = 16
 ```
 
 Example Round:
@@ -72,9 +72,9 @@ To open the application:
 
 ## Languages used
 
-*	HTML
-*	CSS
-*	JavaScript / React
+* HTML
+* CSS
+* JavaScript / React
 
 ## Contributing
 

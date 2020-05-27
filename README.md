@@ -1,5 +1,4 @@
 # Yahtzee-game
-==============
 
 This is a single page React application featuring Yahtzee - a dice rolling game.
 
@@ -20,7 +19,8 @@ Each round, the player rolls five 6-sided dice. They may click on any number of 
 Each round, they must assign their dice to any unclaimed scoring category. Each category scores differently.
 
 After 13 rounds, the game is over, and the player’s score is the total of each scoring category.
----
+
+```python
 **Scoring Categories:**
 
 **Category**        	**Description**                **Example Score**
@@ -37,7 +37,7 @@ Small Straight	  If 4+ values in a row, score 30 (else 0)	1 2 3 4 6 = 30
 Large Straight	  If 5 values in a row, score 40 (else 0)	1 2 3 4 5 = 40
 Yahtzee	          If all values match, score 50 (else 0)	2 2 2 2 2 = 50
 Chance	          Score sum of all dice	      1 2 3 4 6 = 16
----
+```
 
 Example Round:
 The initial roll is: 2 4 3 2 5.

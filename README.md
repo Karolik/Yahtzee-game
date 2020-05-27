@@ -20,7 +20,8 @@ Each round, they must assign their dice to any unclaimed scoring category. Each 
 
 After 13 rounds, the game is over, and the player’s score is the total of each scoring category.
 
-```python
+```
+
 **Scoring Categories:**
 
 **Category**       **Description**                            **Example Score**
@@ -71,9 +72,9 @@ To open the application:
 
 ## Languages used
 
-•	HTML
-•	CSS
-•	JavaScript / React
+*	HTML
+*	CSS
+*	JavaScript / React
 
 ## Contributing
 

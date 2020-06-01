@@ -1,5 +1,6 @@
 .Game {
-  /*width: 30%;*/
+  width: 45%;
+  /*height: 90%;*/
   background: white;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
   /*margin: 0 30%;*/
@@ -42,7 +43,7 @@ h2 {
   );
   border-radius: 0.5rem;
   border: none;
-  width: 50%;
+  /*width: 50%;*/
 
   margin-bottom: 2rem;
 }
@@ -86,5 +87,34 @@ h2 {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+/** Responsive design*/
+@media only screen and (max-width: 500px) {
+  .Game {
+    width: 100%;
+  }
+} 
+
+@media only screen and (min-width: 501px) and (max-width: 700px) {
+  .Game {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 849px) {
+  .Game-dice-section {
+    width: 100%;
+  }
+}  
+
+@media only screen and (min-width: 1000px) {
+  .Game-reroll {
+    width: 50%;
+  }
+
+  .Game {
+    width: 40%;
   }
 }
